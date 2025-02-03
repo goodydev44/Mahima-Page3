@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {}
+
+@layer base {
+  .navSty1 {
+      @apply flex items-center gap-16 text-white font-semibold
+  }
+  .eleSty1 {
+      @apply text-lg hover:text-gray-300 transition cursor-pointer
+  }
+  .line {
+      @apply h-[3px] w-24 bg-[#b39e78]
+  }
+  .sty1 {
+      @apply bg-[#eae5d4] outline-[2px] outline-[#c5c1b4]
+              py-8 space-y-1 flex flex-col items-center text-[#3e3a36]
+              cursor-pointer hover:bg-[#b39e78] hover:text-white transition
+  }
+  .iconSty1 {
+      @apply text-5xl
+  }
+  .headSty1 {
+      @apply text-lg font-bold
+  }
+  .escBox {
+      @apply -ml-[25px] -mb-16 bg-[#b39e78] h-[70px] w-[64px]
+  }
+}
