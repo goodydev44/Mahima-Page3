@@ -1,29 +1,58 @@
 @import "tailwindcss";
 
-@theme {}
+@theme {
+}
 
 @layer base {
   .navSty1 {
-      @apply flex items-center gap-16 text-white font-semibold
+    @apply flex items-center gap-16 text-white font-semibold;
   }
+
   .eleSty1 {
-      @apply text-lg hover:text-gray-300 transition cursor-pointer
+    @apply text-lg hover:text-gray-300 transition cursor-pointer;
   }
+
   .line {
-      @apply h-[3px] w-24 bg-[#b39e78]
+    @apply h-[3px] w-24 bg-[#b39e78];
   }
+
+  .line2 {
+    @apply w-[3.3px] bg-[#b39e78];
+  }
+
   .sty1 {
-      @apply bg-[#eae5d4] outline-[2px] outline-[#c5c1b4]
-              py-8 space-y-1 flex flex-col items-center text-[#3e3a36]
-              cursor-pointer hover:bg-[#b39e78] hover:text-white transition
+    @apply bg-[#eae5d4] outline-[2px] outline-[#c5c1b4] py-8 space-y-1 flex flex-col items-center text-[#3e3a36] cursor-pointer hover:bg-[#b39e78] hover:text-white transition;
   }
+
   .iconSty1 {
-      @apply text-5xl
+    @apply text-5xl;
   }
+
   .headSty1 {
-      @apply text-lg font-bold
+    @apply text-lg font-bold;
   }
+
+  .headSty2 {
+    @apply text-[#332f2b] text-xl font-medium leading-6 mb-2
+  }
+
+  .prgSty1 {
+    @apply text-sm text-[#7e776e] font-medium leading-6
+  }
+
   .escBox {
-      @apply -ml-[25px] -mb-16 bg-[#b39e78] h-[70px] w-[64px]
+    @apply -ml-[25px] -mb-16 bg-[#b39e78] h-[70px] w-[64px];
+  }
+
+  .escBox2 {
+    @apply bg-[#b39e78] -mb-[92px] h-[105px] w-[94px];
+  }
+
+  .escBox3 {
+    @apply bg-[#b39e78] h-[65px] w-[65px] -mb-[50px] ml-[20px]
+  }
+
+  .imgSty1 {
+    @apply h-[70px] w-[70px]
   }
 }
